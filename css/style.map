@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.sass"
+	],
+	"sourcesContent": [
+		".navbar-brand {\n    img {\n        width: 100px; } }\n.carousel-item {\n    position: relative;\n    img {\n        height: 550px;\n        object-fit: cover; } } // свойство для подгонки изображения\n.content {\n    position: absolute;\n    max-width: 900px;\n    left: 13%;\n    bottom: 20%;\n    z-index: 2;\n    color: white; }\n.overlay {\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    background: black;\n    opacity: 0.4; } // на 40 % не прозрачный. сделали затемнение картинки\n.arrow {\n    width: 50px;\n    font-size: 50px;\n    color: black; }\n.carousel {\n    margin-bottom: 20px; }\n"
+	],
+	"names": [],
+	"mappings": ";;AAAA,AACI,aADS,CACT,GAAG,CAAC;EACA,KAAK,EAAE,KAAK;CAAG;;;AACvB,AAAA,cAAc,CAAC;EACX,QAAQ,EAAE,QAAQ;CAGQ;;;AAJ9B,AAEI,cAFU,CAEV,GAAG,CAAC;EACA,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,KAAK;CAAG;;;AAC5B,AAAA,QAAQ,CAAC;EACL,QAAQ,EAAE,QAAQ;EAClB,SAAS,EAAE,KAAK;EAChB,IAAI,EAAE,GAAG;EACT,MAAM,EAAE,GAAG;EACX,OAAO,EAAE,CAAC;EACV,KAAK,EAAE,KAAK;CAAG;;;AACnB,AAAA,QAAQ,CAAC;EACL,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,KAAK;EACjB,OAAO,EAAE,GAAG;CAAG;;;AACnB,AAAA,MAAM,CAAC;EACH,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,KAAK;CAAG;;;AACnB,AAAA,SAAS,CAAC;EACN,aAAa,EAAE,IAAI;CAAG"
+}

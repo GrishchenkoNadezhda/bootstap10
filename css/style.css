@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* line 2, ../../../../../Desktop/ВЕБ разработка/bootstap/sass/style.sass */
+.navbar-brand img {
+  width: 100px;
+}
+
+/* line 4, ../../../../../Desktop/ВЕБ разработка/bootstap/sass/style.sass */
+.carousel-item {
+  position: relative;
+}
+
+/* line 6, ../../../../../Desktop/ВЕБ разработка/bootstap/sass/style.sass */
+.carousel-item img {
+  height: 550px;
+  object-fit: cover;
+}
+
+/* line 9, ../../../../../Desktop/ВЕБ разработка/bootstap/sass/style.sass */
+.content {
+  position: absolute;
+  max-width: 900px;
+  left: 13%;
+  bottom: 20%;
+  z-index: 2;
+  color: white;
+}
+
+/* line 16, ../../../../../Desktop/ВЕБ разработка/bootstap/sass/style.sass */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.4;
+}
+
+/* line 22, ../../../../../Desktop/ВЕБ разработка/bootstap/sass/style.sass */
+.arrow {
+  width: 50px;
+  font-size: 50px;
+  color: black;
+}
+
+/* line 26, ../../../../../Desktop/ВЕБ разработка/bootstap/sass/style.sass */
+.carousel {
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
